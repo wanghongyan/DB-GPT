@@ -10,7 +10,7 @@ export default function BarChart({ chart }: { key: string; chart: ChartData }) {
           <Typography gutterBottom component="div">
             {chart.chart_name}
           </Typography>
-          <Typography gutterBottom level="body3">
+          <Typography gutterBottom level='body-sm'>
             {chart.chart_desc}
           </Typography>
           <div className="h-[300px]">
